@@ -1,0 +1,5 @@
+import personas.*
+import objetos.*
+test "gusto de rosa" {
+	assert.equals(true, rosa.leGusta(remera))
+}
