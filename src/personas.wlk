@@ -10,7 +10,7 @@ object rosa {
 
 object juan {
 	method leGusta(objeto) { 
-		return not objeto.color().esFuerte() or objeto.peso()>=1200 and objeto.peso()<=1800 		
+		return not objeto.color().esFuerte() || objeto.peso()>=1200 and objeto.peso()<=1800 		
 	}
 }                                                                    //objeto.peso().between(1200, 1800)
 

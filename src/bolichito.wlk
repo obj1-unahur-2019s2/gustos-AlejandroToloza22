@@ -19,11 +19,11 @@ object bolichito {
 	}
 	
 	method estaDesequilibrado() {
-		return objetoEnMostrador.peso() > objetoEnVidriera.peso()
+		return objetoEnMostrador.peso() > objetoEnVidriera.peso() 
 	}
 	
 	method tieneAlgoDeColor(color) {
-		return objetoEnMostrador.color() == color || objetoEnMostrador.color() == color
+		return objetoEnMostrador.color() == color || objetoEnVidriera.color() == color
 	}
 
 	method puedeMejorar() {

@@ -1,5 +1,8 @@
 import personas.*
 import objetos.*
+import bolichito.*
 test "gusto de rosa" {
-	assert.equals(true, rosa.leGusta(remera))
+	bolichito.ponerEnMostrador(munieco)
+	bolichito.ponerEnVidriera(pelota)
+	assert.equals(true, bolichito.tieneAlgoDeColor(verde))
 }
